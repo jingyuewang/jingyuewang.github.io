@@ -3,9 +3,11 @@
 /*****************************/
 body {
   /*background              : url(header_background1.png) repeat-x top left;*/
-  background-color        : #ffffff;
+  background-color        : #eeeeee;
   padding                 : 0;
-  margin                  : 0;
+  margin                  : 0px 160px auto;
+  line-height             : 1.2;
+  max-width               : 1280px;
 }
 
 html, body {
@@ -107,17 +109,20 @@ hr {
 h2 {
    margin                 : 0;
    padding                : 0;
+   line-height            : 1.8;
 }
 
 h3 {
    margin                 : 0;
    padding                : 0;
+   line-height            : 1.8;
 }
 
 p {
-   margin-top: 2px;
-   margin-bottom: 10px;
-   padding: 0;
+   margin-top             : 2px;
+   margin-bottom          : 10px;
+   padding                : 0;
+   font-size              : 18px;
 }
 
 a:link {
